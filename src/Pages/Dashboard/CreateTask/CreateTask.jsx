@@ -21,7 +21,7 @@ const CreateTask = () => {
 
         // send data to the server
 
-        fetch('http://localhost:5000/task', {
+        fetch('https://server-neon-ten.vercel.app/task', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

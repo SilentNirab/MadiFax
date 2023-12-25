@@ -13,7 +13,7 @@ const MyProfile = () => {
     }
 
     const handelDelete = (id) => {
-        fetch(`http://localhost:5000/task/${id}`, {
+        fetch(`https://server-neon-ten.vercel.app/task/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())
